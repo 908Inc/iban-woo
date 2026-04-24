@@ -1,0 +1,5 @@
+.DS_Store
+*.mo
+dev/.env
+node_modules/
+vendor/

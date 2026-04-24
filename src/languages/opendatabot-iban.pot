@@ -1,0 +1,159 @@
+# Copyright (C) 2026 Opendatabot
+# This file is distributed under the same license as the Opendatabot IBAN Invoice plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Opendatabot IBAN Invoice 0.1.0\n"
+"Report-Msgid-Bugs-To: https://iban.opendatabot.ua/\n"
+"POT-Creation-Date: 2026-04-23 12:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: manual\n"
+
+msgid "Opendatabot IBAN Invoice"
+msgstr ""
+
+msgid "Opendatabot IBAN Invoice requires WooCommerce to be installed and active."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Creates an IBAN invoice via Opendatabot and redirects the customer to pay it. Optionally confirms payment automatically via Opendatabot Autoclient."
+msgstr ""
+
+msgid "Enable / Disable"
+msgstr ""
+
+msgid "Enable Opendatabot IBAN Invoice"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Title shown to the customer at checkout."
+msgstr ""
+
+msgid "IBAN invoice (Opendatabot)"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Description shown to the customer at checkout."
+msgstr ""
+
+msgid "Pay via IBAN invoice. You will be redirected to the Opendatabot payment page."
+msgstr ""
+
+msgid "IBAN"
+msgstr ""
+
+msgid "Ukrainian IBAN (UA + 27 digits)."
+msgstr ""
+
+msgid "Code (EDRPOU / Tax ID)"
+msgstr ""
+
+msgid "Your EDRPOU or individual tax ID (8 or 10 digits)."
+msgstr ""
+
+msgid "x-client-key"
+msgstr ""
+
+msgid "Opendatabot API client key (required for creating invoices)."
+msgstr ""
+
+msgid "x-client-name"
+msgstr ""
+
+msgid "Opendatabot API client name (e.g. \"public\" or your app name)."
+msgstr ""
+
+msgid "Payment purpose"
+msgstr ""
+
+msgid "Use {order_id} placeholder. If omitted, the order ID is appended automatically."
+msgstr ""
+
+msgid "Payment for order #{order_id}"
+msgstr ""
+
+msgid "Initial order status"
+msgstr ""
+
+msgid "Status set when the order is created and customer is redirected to the invoice."
+msgstr ""
+
+msgid "Pending payment"
+msgstr ""
+
+msgid "Autoclient (automatic payment confirmation)"
+msgstr ""
+
+msgid "Optional. Enable only if you have Autoclient configured on iban.opendatabot.ua."
+msgstr ""
+
+msgid "Autoclient"
+msgstr ""
+
+msgid "Enable automatic payment confirmation via Autoclient callback"
+msgstr ""
+
+msgid "Requires a configured Autoclient on iban.opendatabot.ua. The customer will see a payment-waiting page while the autoclient polls the bank."
+msgstr ""
+
+msgid "Paid order status"
+msgstr ""
+
+msgid "Status set when payment is confirmed via Autoclient callback."
+msgstr ""
+
+msgid "Processing"
+msgstr ""
+
+msgid "Callback URL"
+msgstr ""
+
+msgid "Copy this URL to the \"Webhook URL\" / \"Callback URL\" field in your Autoclient settings on iban.opendatabot.ua."
+msgstr ""
+
+msgid "IBAN is required."
+msgstr ""
+
+msgid "Please enter a valid UA IBAN (UA + 27 digits)."
+msgstr ""
+
+msgid "IBAN checksum is invalid."
+msgstr ""
+
+msgid "Code (EDRPOU / Tax ID) is required."
+msgstr ""
+
+msgid "Please enter a valid code (8 or 10 digits)."
+msgstr ""
+
+msgid "x-client-key is required."
+msgstr ""
+
+msgid "x-client-name is required."
+msgstr ""
+
+msgid "Order not found. Please try again."
+msgstr ""
+
+msgid "This payment method is available only for UAH."
+msgstr ""
+
+msgid "Payment for order #%s"
+msgstr ""
+
+msgid "Could not create the invoice. Your cart was not changed. Please try again or contact the store."
+msgstr ""
+
+msgid "Customer was redirected to Opendatabot IBAN invoice."
+msgstr ""
+
+msgid "Payment confirmed via Opendatabot autoclient."
+msgstr ""

@@ -1,0 +1,160 @@
+# Ukrainian translation for Opendatabot IBAN Invoice.
+# Copyright (C) 2026 Opendatabot
+msgid ""
+msgstr ""
+"Project-Id-Version: Opendatabot IBAN Invoice 0.1.0\n"
+"Report-Msgid-Bugs-To: https://iban.opendatabot.ua/\n"
+"POT-Creation-Date: 2026-04-23 12:00+0000\n"
+"PO-Revision-Date: 2026-04-23 12:00+0000\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "Opendatabot IBAN Invoice"
+msgstr "Рахунок IBAN від Opendatabot"
+
+msgid "Opendatabot IBAN Invoice requires WooCommerce to be installed and active."
+msgstr "Для роботи плагіна «Рахунок IBAN від Opendatabot» потрібен встановлений та активований WooCommerce."
+
+msgid "Settings"
+msgstr "Налаштування"
+
+msgid "Creates an IBAN invoice via Opendatabot and redirects the customer to pay it. Optionally confirms payment automatically via Opendatabot Autoclient."
+msgstr "Створює рахунок IBAN через Opendatabot і перенаправляє покупця на сторінку оплати. За бажанням — фіксує оплату автоматично через Автоклієнт Opendatabot."
+
+msgid "Enable / Disable"
+msgstr "Увімкнути / вимкнути"
+
+msgid "Enable Opendatabot IBAN Invoice"
+msgstr "Увімкнути рахунок IBAN від Opendatabot"
+
+msgid "Title"
+msgstr "Назва"
+
+msgid "Title shown to the customer at checkout."
+msgstr "Назва способу оплати, яку бачить покупець на сторінці оформлення замовлення."
+
+msgid "IBAN invoice (Opendatabot)"
+msgstr "Безготівковий розрахунок"
+
+msgid "Description"
+msgstr "Опис"
+
+msgid "Description shown to the customer at checkout."
+msgstr "Опис способу оплати, який бачить покупець."
+
+msgid "Pay via IBAN invoice. You will be redirected to the Opendatabot payment page."
+msgstr "Оплата за IBAN без комісії. Вас буде перенаправлено на сторінку оплати Opendatabot."
+
+msgid "IBAN"
+msgstr "IBAN"
+
+msgid "Ukrainian IBAN (UA + 27 digits)."
+msgstr "Український IBAN (UA + 27 цифр)."
+
+msgid "Code (EDRPOU / Tax ID)"
+msgstr "РНОКПП / ЄДРПОУ"
+
+msgid "Your EDRPOU or individual tax ID (8 or 10 digits)."
+msgstr "Ваш ЄДРПОУ або РНОКПП (8 або 10 цифр)."
+
+msgid "x-client-key"
+msgstr "x-client-key"
+
+msgid "Opendatabot API client key (required for creating invoices)."
+msgstr "Ключ клієнта API Opendatabot (потрібен для створення рахунків)."
+
+msgid "x-client-name"
+msgstr "x-client-name"
+
+msgid "Opendatabot API client name (e.g. \"public\" or your app name)."
+msgstr "Ім'я клієнта API Opendatabot (наприклад, «public» або назва вашого застосунку)."
+
+msgid "Payment purpose"
+msgstr "Призначення платежу"
+
+msgid "Use {order_id} placeholder. If omitted, the order ID is appended automatically."
+msgstr "Використовуйте плейсхолдер {order_id}. Якщо його немає, номер замовлення буде додано автоматично."
+
+msgid "Payment for order #{order_id}"
+msgstr "Оплата за замовлення №{order_id}"
+
+msgid "Initial order status"
+msgstr "Початковий статус замовлення"
+
+msgid "Status set when the order is created and customer is redirected to the invoice."
+msgstr "Статус, який встановлюється при створенні замовлення та перенаправленні покупця на рахунок."
+
+msgid "Pending payment"
+msgstr "Очікує оплати"
+
+msgid "Autoclient (automatic payment confirmation)"
+msgstr "Автоклієнт (автоматичне підтвердження оплати)"
+
+msgid "Optional. Enable only if you have Autoclient configured on iban.opendatabot.ua."
+msgstr "Опційно. Вмикайте лише якщо у вас налаштований Автоклієнт на iban.opendatabot.ua."
+
+msgid "Autoclient"
+msgstr "Автоклієнт"
+
+msgid "Enable automatic payment confirmation via Autoclient callback"
+msgstr "Увімкнути автоматичне підтвердження оплати через callback Автоклієнта"
+
+msgid "Requires a configured Autoclient on iban.opendatabot.ua. The customer will see a payment-waiting page while the autoclient polls the bank."
+msgstr "Потрібен налаштований Автоклієнт на iban.opendatabot.ua. Покупець побачить сторінку очікування оплати, поки автоклієнт опитує банк."
+
+msgid "Paid order status"
+msgstr "Статус замовлення (оплачено)"
+
+msgid "Status set when payment is confirmed via Autoclient callback."
+msgstr "Статус замовлення після підтвердження оплати через callback Автоклієнта."
+
+msgid "Processing"
+msgstr "В обробці"
+
+msgid "Callback URL"
+msgstr "Callback URL"
+
+msgid "Copy this URL to the \"Webhook URL\" / \"Callback URL\" field in your Autoclient settings on iban.opendatabot.ua."
+msgstr "Скопіюйте цей URL у поле «Webhook URL» / «Callback URL» у налаштуваннях Автоклієнта на iban.opendatabot.ua."
+
+msgid "IBAN is required."
+msgstr "Потрібно вказати IBAN."
+
+msgid "Please enter a valid UA IBAN (UA + 27 digits)."
+msgstr "Будь ласка, вкажіть коректний український IBAN (UA + 27 цифр)."
+
+msgid "IBAN checksum is invalid."
+msgstr "Контрольна сума IBAN невірна."
+
+msgid "Code (EDRPOU / Tax ID) is required."
+msgstr "Потрібно вказати РНОКПП / ЄДРПОУ."
+
+msgid "Please enter a valid code (8 or 10 digits)."
+msgstr "Будь ласка, вкажіть коректний код (8 або 10 цифр)."
+
+msgid "x-client-key is required."
+msgstr "Потрібно вказати x-client-key."
+
+msgid "x-client-name is required."
+msgstr "Потрібно вказати x-client-name."
+
+msgid "Order not found. Please try again."
+msgstr "Замовлення не знайдено. Спробуйте ще раз."
+
+msgid "This payment method is available only for UAH."
+msgstr "Цей спосіб оплати доступний лише для разрахунку у гривнях ₴."
+
+msgid "Payment for order #%s"
+msgstr "Оплата за замовлення №%s"
+
+msgid "Could not create the invoice. Your cart was not changed. Please try again or contact the store."
+msgstr "Не вдалося створити рахунок. Кошик не змінено. Спробуйте ще раз або зверніться до магазину."
+
+msgid "Customer was redirected to Opendatabot IBAN invoice."
+msgstr "Користувача перенаправлено на рахунок IBAN (Opendatabot)."
+
+msgid "Payment confirmed via Opendatabot autoclient."
+msgstr "Оплату підтверджено через Автоклієнт Opendatabot."
